@@ -46,6 +46,7 @@ body {
     padding: 10px;
     border: 1px solid #000;
     border-radius: 5px;
+    background-color: #fff;
     width: 150px;
     height: 50px;
 }
@@ -576,4 +577,18 @@ body {
     color: #8f95a5;
     font-size: 24px;
     margin-top: -30px;
+}
+
+@media (max-width: 992px) {
+    .navigation .logo {
+        margin-left: 90px;
+    }
+
+    .nav-menu ul {
+        margin-left: 100px;
+    }
+
+    .lets-talk {
+        margin-left: 100px;
+    }
 }
