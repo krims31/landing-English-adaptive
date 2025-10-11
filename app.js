@@ -1,35 +1,89 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // Элементы меню
   const navLinks = document.querySelectorAll(".nav-menu a");
+  const burgerBtn = document.getElementById("burgerBtn");
+  const navMenu = document.getElementById("navMenu");
+  const body = document.body;
+
+  const overlay = document.createElement("div");
+  overlay.className = "menu-overlay";
+  document.body.appendChild(overlay);
+
+  // Функции меню
+  function openMenu() {
+    burgerBtn.classList.add("active");
+    navMenu.classList.add("active");
+    overlay.classList.add("active");
+    body.style.overflow = "hidden";
+  }
+
+  function closeMenu() {
+    burgerBtn.classList.remove("active");
+    navMenu.classList.remove("active");
+    overlay.classList.remove("active");
+    body.style.overflow = "";
+  }
+
+  function toggleMenu() {
+    if (navMenu.classList.contains("active")) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+  }
+
+  if (burgerBtn) {
+    burgerBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      toggleMenu();
+    });
+  }
+
+  overlay.addEventListener("click", closeMenu);
 
   navLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
 
       const targetId = this.getAttribute("href").substring(1);
-      console.log("Кликнули на:", targetId);
-
       const targetElement = document.getElementById(targetId);
 
       if (targetElement) {
-        // Плавно скроллим к элементу
+        // Плавная прокрутка
         targetElement.scrollIntoView({
-          behavior: "smooth", // Плавная анимация
-          block: "start", // Выравнивание по верху
+          behavior: "smooth",
+          block: "start",
         });
 
-        console.log("Найден элемент:", targetElement);
-      } else {
-        console.log("Элемент не найден:", targetId);
-        // Показываем какие элементы есть на странице
-        const allIds = Array.from(document.querySelectorAll("[id]")).map(
-          (el) => el.id,
-        );
-        console.log("Доступные ID на странице:", allIds);
+        if (window.innerWidth <= 768) {
+          closeMenu();
+        }
       }
     });
   });
 
-  // Также добавляем для кнопки "Let's talk"
+  document.addEventListener("click", function (e) {
+    if (
+      navMenu.classList.contains("active") &&
+      !navMenu.contains(e.target) &&
+      !burgerBtn.contains(e.target)
+    ) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && navMenu.classList.contains("active")) {
+      closeMenu();
+    }
+  });
+
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 768 && navMenu.classList.contains("active")) {
+      closeMenu();
+    }
+  });
+
   const letsTalkBtn = document.querySelector(".lets-talk");
   if (letsTalkBtn) {
     letsTalkBtn.addEventListener("click", function () {
