@@ -1,924 +1,1286 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
 }
 
 .navigation .logo {
-    margin-left: 80px;
+	margin-left: 80px;
 }
 
 .nav-menu ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-right: 80px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin-right: 80px;
 }
 
 .nav-menu li a {
-    gap: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 100%;
-    color: #263238;
-    padding: 20px;
-    cursor: pointer;
+	gap: 10px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 100%;
+	color: #263238;
+	padding: 20px;
+	cursor: pointer;
 }
 
 .nav-menu li a:hover {
-    color: black;
-    box-shadow: 0 0 0 rgb(0, 0, 0, 0.1);
+	color: black;
+	box-shadow: 0 0 0 rgb(0, 0, 0, 0.1);
 }
 
 .lets-talk {
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    background-color: #fff;
-    width: 150px;
-    height: 50px;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 150px;
+	height: 50px;
 }
 
 .lets-talk button {
-    color: black;
-    font-weight: 400;
-    font-size: 24px;
+	color: black;
+	font-weight: 400;
+	font-size: 24px;
 }
 
 .lets-talk:hover {
-    background-color: black;
-    color: white;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+	background-color: black;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
 }
 
 .learn h1 {
-    font-weight: 600;
-    font-size: 64px;
-    margin-top: 200px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    color: #000000;
+	font-weight: 600;
+	font-size: 64px;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	margin-left: 100px;
+	color: #000000;
 }
 
 .learn img {
-    position: absolute;
-    top: 360px;
-    left: 600px;
+	position: absolute;
+	top: 360px;
+	left: 600px;
 }
 
 .text-learn p {
-    font-weight: 400;
-    font-size: 24px;
-    color: #8f95a5;
-    margin-left: 100px;
+	font-weight: 400;
+	font-size: 24px;
+	color: #8f95a5;
+	margin-left: 100px;
 }
 
 .get-start {
-    background-color: #263238;
-    color: white;
-    font-size: 24px;
-    width: 380px;
-    height: 80px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 100px;
+	background-color: #263238;
+	color: white;
+	font-size: 24px;
+	width: 380px;
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 100px;
 }
 
 .get-start:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .learn-img {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 1000px;
-    margin-top: -600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 1000px;
+	margin-top: -600px;
 }
 
 .skills h1 {
-    font-weight: 600;
-    font-size: 48px;
-    margin-top: 150px;
-    margin-left: 850px;
+	font-weight: 600;
+	font-size: 48px;
+	margin-top: 150px;
+	margin-left: 850px;
 }
 
 .speaking {
-    background-color: #f5f5f5;
-    width: 500px;
-    height: 900px;
-    margin-top: 130px;
-    margin-left: 200px;
+	background-color: #f5f5f5;
+	width: 500px;
+	height: 900px;
+	margin-top: 130px;
+	margin-left: 200px;
 }
 
 .speaking img {
-    margin-top: 100px;
-    margin-left: 50px;
+	margin-top: 100px;
+	margin-left: 50px;
 }
 
 .speaking h1 {
-    margin-left: 70px;
+	margin-left: 70px;
 }
 
 .speaking p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #8f95a5;
-    margin-left: 70px;
-    margin-top: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8f95a5;
+	margin-left: 70px;
+	margin-top: 20px;
 }
 
 .speaking button {
-    background-color: #263238;
-    color: white;
-    font-size: 24px;
-    width: 200px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-left: 70px;
+	background-color: #263238;
+	color: white;
+	font-size: 24px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 70px;
 }
 
 .speaking button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .writing {
-    background-color: #f5f5f5;
-    width: 400px;
-    height: 550px;
-    margin-top: -900px;
-    margin-left: 720px;
+	background-color: #f5f5f5;
+	width: 400px;
+	height: 550px;
+	margin-top: -900px;
+	margin-left: 720px;
 }
 
 .writing img {
-    margin-left: 100px;
+	margin-left: 100px;
 }
 
 .writing h1 {
-    margin-left: 50px;
+	margin-left: 50px;
 }
 
 .writing p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #8f95a5;
-    margin-left: 50px;
-    margin-top: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8f95a5;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 
 .writing button {
-    background-color: #263238;
-    color: white;
-    font-size: 24px;
-    width: 200px;
-    height: 55px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-left: 50px;
+	background-color: #263238;
+	color: white;
+	font-size: 24px;
+	width: 200px;
+	height: 55px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
 
 .writing button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .reading {
-    background-color: #f5f5f5;
-    width: 400px;
-    height: 550px;
-    margin-top: -550px;
-    margin-left: 1140px;
+	background-color: #f5f5f5;
+	width: 400px;
+	height: 550px;
+	margin-top: -550px;
+	margin-left: 1140px;
 }
 
 .reading img {
-    margin-top: 30px;
-    margin-left: 10px;
+	margin-top: 30px;
+	margin-left: 10px;
 }
 
 .reading h1 {
-    margin-top: 20px;
-    margin-left: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
 }
 
 .reading p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #8f95a5;
-    margin-left: 50px;
-    margin-top: 15px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8f95a5;
+	margin-left: 50px;
+	margin-top: 15px;
 }
 
 .reading button {
-    background-color: #263238;
-    color: white;
-    font-size: 24px;
-    width: 200px;
-    height: 55px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-left: 50px;
+	background-color: #263238;
+	color: white;
+	font-size: 24px;
+	width: 200px;
+	height: 55px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
 
 .reading button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .listening {
-    background-color: #f5f5f5;
-    width: 820px;
-    height: 330px;
-    margin-top: 20px;
-    margin-left: 720px;
+	background-color: #f5f5f5;
+	width: 820px;
+	height: 330px;
+	margin-top: 20px;
+	margin-left: 720px;
 }
 
 .listening img {
-    margin-top: 30px;
-    margin-left: 400px;
+	margin-top: 30px;
+	margin-left: 400px;
 }
 
 .listening h1 {
-    margin-top: -220px;
-    margin-left: 50px;
+	margin-top: -220px;
+	margin-left: 50px;
 }
 
 .listening p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #8f95a5;
-    margin-left: 50px;
-    margin-top: 15px;
+	font-weight: 400;
+	font-size: 16px;
+	color: #8f95a5;
+	margin-left: 50px;
+	margin-top: 15px;
 }
 
 .listening button {
-    background-color: #263238;
-    color: white;
-    font-size: 24px;
-    width: 200px;
-    height: 55px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 30px;
-    margin-left: 50px;
+	background-color: #263238;
+	color: white;
+	font-size: 24px;
+	width: 200px;
+	height: 55px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-left: 50px;
 }
 
 .listening button:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .about-us h1 {
-    margin-top: 300px;
-    margin-left: 200px;
-    font-size: 48px;
-    font-weight: 600;
+	margin-top: 300px;
+	margin-left: 200px;
+	font-size: 48px;
+	font-weight: 600;
 }
 
 .about-us p {
-    font-weight: 400;
-    font-size: 20px;
-    color: #8f95a5;
-    margin-left: 200px;
-    margin-top: 40px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-left: 200px;
+	margin-top: 40px;
 }
 
 .about-us img {
-    margin-top: -350px;
-    margin-left: 1050px;
+	margin-top: -350px;
+	margin-left: 1050px;
 }
 
 .pupils h1 {
-    font-weight: 600;
-    font-size: 48px;
-    color: #2a3246;
-    margin-top: -100px;
-    margin-left: 200px;
+	font-weight: 600;
+	font-size: 48px;
+	color: #2a3246;
+	margin-top: -100px;
+	margin-left: 200px;
 }
 
 .pupils p {
-    font-size: 20px;
-    color: #8f95a5;
-    margin-left: 210px;
-    margin-top: 10px;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-left: 210px;
+	margin-top: 10px;
 }
 
 .teachers h1 {
-    font-weight: 600;
-    font-size: 48px;
-    color: #2a3246;
-    margin-top: -90px;
-    margin-left: 420px;
+	font-weight: 600;
+	font-size: 48px;
+	color: #2a3246;
+	margin-top: -90px;
+	margin-left: 420px;
 }
 
 .teachers p {
-    font-size: 20px;
-    color: #8f95a5;
-    margin-left: 400px;
-    margin-top: 12px;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-left: 400px;
+	margin-top: 12px;
 }
 
 .foreign-language h1 {
-    font-weight: 600;
-    font-size: 48px;
-    color: #2a3246;
-    margin-top: -90px;
-    margin-left: 620px;
+	font-weight: 600;
+	font-size: 48px;
+	color: #2a3246;
+	margin-top: -90px;
+	margin-left: 620px;
 }
 
 .foreign-language p {
-    font-size: 20px;
-    color: #8f95a5;
-    margin-left: 570px;
-    margin-top: 12px;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-left: 570px;
+	margin-top: 12px;
 }
 
 .pricing h1 {
-    font-weight: 600;
-    font-size: 48px;
-    margin-top: 150px;
-    margin-left: 850px;
+	font-weight: 600;
+	font-size: 48px;
+	margin-top: 150px;
+	margin-left: 850px;
 }
 
 .self-study img {
-    margin-top: 100px;
-    margin-left: 180px;
+	margin-top: 100px;
+	margin-left: 180px;
 }
 
 .self-study h1 {
-    font-weight: 600;
-    font-size: 30px;
-    color: #263238;
-    margin-left: 160px;
-    margin-top: 50px;
+	font-weight: 600;
+	font-size: 30px;
+	color: #263238;
+	margin-left: 160px;
+	margin-top: 50px;
 }
 
 .self-study p {
-    font-weight: 400;
-    font-size: 20px;
-    color: #8f95a5;
-    margin-top: 30px;
-    margin-left: 160px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-top: 30px;
+	margin-left: 160px;
 }
 
 .money-monthly {
-    width: 210px;
-    height: 50px;
-    margin-top: 30px;
-    margin-left: 160px;
-    background-color: #eeeeee;
+	width: 210px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 160px;
+	background-color: #eeeeee;
 }
 
 .money-monthly p {
-    font-weight: 400;
-    font-size: 30px;
-    position: absolute;
-    top: 3610px;
-    left: 180px;
+	font-weight: 400;
+	font-size: 30px;
+	position: absolute;
+	top: 3610px;
+	left: 180px;
 }
 
 .money-monthly span {
-    font-size: 18px;
-    font-weight: 400;
-    color: #546269;
-    position: absolute;
-    top: 3610px;
-    left: 270px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #546269;
+	position: absolute;
+	top: 3610px;
+	left: 270px;
 }
 
 .live-online img {
-    position: absolute;
-    top: 3100px;
-    left: 720px;
+	position: absolute;
+	top: 3100px;
+	left: 720px;
 }
 
 .live-online h1 {
-    font-weight: 600;
-    font-size: 30px;
-    color: #263238;
-    margin-left: 720px;
-    margin-top: -210px;
+	font-weight: 600;
+	font-size: 30px;
+	color: #263238;
+	margin-left: 720px;
+	margin-top: -210px;
 }
 
 .live-online p {
-    font-weight: 400;
-    font-size: 20px;
-    color: #8f95a5;
-    margin-top: 25px;
-    margin-left: 720px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-top: 25px;
+	margin-left: 720px;
 }
 
 .live-monthly {
-    width: 230px;
-    height: 50px;
-    margin-top: 50px;
-    margin-left: 720px;
-    background-color: #eeeeee;
+	width: 230px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 720px;
+	background-color: #eeeeee;
 }
 
 .live-monthly p {
-    font-weight: 400;
-    font-size: 30px;
-    position: absolute;
-    top: 3605px;
-    left: 740px;
+	font-weight: 400;
+	font-size: 30px;
+	position: absolute;
+	top: 3605px;
+	left: 740px;
 }
 
 .live-monthly span {
-    font-size: 18px;
-    font-weight: 400;
-    color: #546269;
-    position: absolute;
-    top: 3605px;
-    left: 850px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #546269;
+	position: absolute;
+	top: 3605px;
+	left: 850px;
 }
 
 .personal img {
-    position: absolute;
-    top: 3080px;
-    left: 1200px;
+	position: absolute;
+	top: 3080px;
+	left: 1200px;
 }
 
 .personal h1 {
-    font-weight: 600;
-    font-size: 30px;
-    color: #263238;
-    margin-left: 1150px;
-    margin-top: -210px;
+	font-weight: 600;
+	font-size: 30px;
+	color: #263238;
+	margin-left: 1150px;
+	margin-top: -210px;
 }
 
 .personal p {
-    font-weight: 400;
-    font-size: 20px;
-    color: #8f95a5;
-    margin-top: 20px;
-    margin-left: 1150px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-top: 20px;
+	margin-left: 1150px;
 }
 
 .live-personal {
-    width: 230px;
-    height: 50px;
-    margin-top: 55px;
-    margin-left: 1150px;
-    background-color: #eeeeee;
+	width: 230px;
+	height: 50px;
+	margin-top: 55px;
+	margin-left: 1150px;
+	background-color: #eeeeee;
 }
 
 .live-personal p {
-    font-weight: 400;
-    font-size: 30px;
-    position: absolute;
-    top: 3600px;
-    left: 1170px;
+	font-weight: 400;
+	font-size: 30px;
+	position: absolute;
+	top: 3600px;
+	left: 1170px;
 }
 
 .live-personal span {
-    font-size: 18px;
-    font-weight: 400;
-    color: #546269;
-    position: absolute;
-    top: 3600px;
-    left: 1280px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #546269;
+	position: absolute;
+	top: 3600px;
+	left: 1280px;
 }
 
 .contact-us img {
-    margin-top: 300px;
-    margin-left: 110px;
+	margin-top: 300px;
+	margin-left: 110px;
 }
 
 .contact-us h1 {
-    font-weight: 600;
-    font-size: 48px;
-    margin-left: 820px;
-    margin-top: -390px;
+	font-weight: 600;
+	font-size: 48px;
+	margin-left: 820px;
+	margin-top: -390px;
 }
 
 .contact-us p {
-    font-weight: 400;
-    font-size: 20px;
-    color: #8f95a5;
-    margin-top: 50px;
-    margin-left: 820px;
+	font-weight: 400;
+	font-size: 20px;
+	color: #8f95a5;
+	margin-top: 50px;
+	margin-left: 820px;
 }
 
 .contact-us input {
-    border: 1px solid #8f95a5;
-    border-radius: 5px;
-    padding: 25px;
-    width: 400px;
-    font-size: 16px;
-    font-weight: 400;
-    margin-left: 820px;
-    margin-top: 50px;
+	border: 1px solid #8f95a5;
+	border-radius: 5px;
+	padding: 25px;
+	width: 400px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 820px;
+	margin-top: 50px;
 }
 
 .contact-us button {
-    background-color: #263238;
-    color: white;
-    font-size: 20px;
-    width: 200px;
-    height: 67px;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-top: 40px;
-    margin-left: 10px;
+	background-color: #263238;
+	color: white;
+	font-size: 20px;
+	width: 200px;
+	height: 67px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 40px;
+	margin-left: 10px;
 }
 
 .contact-us button:hover {
-    transition: all 0.3s ease-in-out;
-    background-color: #000000;
-    cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	background-color: #000000;
+	cursor: pointer;
 }
 
 .rectangle img {
-    margin-left: 100px;
-    width: 1450px;
+	margin-left: 100px;
+	width: 1450px;
 }
 
 .footer {
-    padding: 20px;
+	padding: 20px;
 }
 
 .footer-logo img {
-    margin-top: 30px;
-    margin-left: 80px;
+	margin-top: 30px;
+	margin-left: 80px;
 }
 
 .footer-text {
-    margin-left: 960px;
-    color: #8f95a5;
-    font-size: 24px;
-    margin-top: -30px;
+	margin-left: 960px;
+	color: #8f95a5;
+	font-size: 24px;
+	margin-top: -30px;
 }
 
 .burger-menu {
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 25px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    z-index: 1000;
-    position: relative;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 30px;
+	height: 25px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	z-index: 1000;
+	position: relative;
 }
 
 .burger-menu span {
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: #263238;
-    border-radius: 3px;
-    transition: all 0.3s ease;
-    transform-origin: center;
+	display: block;
+	height: 3px;
+	width: 100%;
+	background-color: #263238;
+	border-radius: 3px;
+	transition: all 0.3s ease;
+	transform-origin: center;
 }
 
 .burger-menu.active span:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px);
+	transform: rotate(45deg) translate(6px, 6px);
 }
 
 .burger-menu.active span:nth-child(2) {
-    opacity: 0;
-    transform: translateX(-10px);
+	opacity: 0;
+	transform: translateX(-10px);
 }
 
 .burger-menu.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px);
+	transform: rotate(-45deg) translate(6px, -6px);
 }
 
 .menu-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 998;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 998;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
 }
 
 .menu-overlay.active {
-    opacity: 1;
-    visibility: visible;
+	opacity: 1;
+	visibility: visible;
+}
+
+@media (max-width: 1024px) {
+	.learn-img {
+		position: relative;
+		top: -50px;
+		left: -250px;
+	}
+
+	.skills h1 {
+		margin-left: 650px;
+	}
+
+	.speaking {
+		margin-left: 80px;
+	}
+
+	.writing {
+		position: relative;
+		top: 0px;
+		left: -120px;
+	}
+
+	.reading {
+		position: relative;
+		top: 0px;
+		left: -120px;
+	}
+
+	.listening {
+		position: relative;
+		top: 0px;
+		left: -120px;
+	}
+
+	.about-us img {
+		position: relative;
+		top: 0px;
+		left: -120px;
+	}
+
+	.pricing h1 {
+		position: relative;
+		top: 0px;
+		left: -185px;
+	}
+
+	.self-study img {
+		margin-left: 170px;
+	}
+
+	.self-study h1 {
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.live-online img {
+		position: relative;
+		top: -550px;
+		left: 580px;
+	}
+
+	.live-online h1 {
+		position: relative;
+		top: -290px;
+		left: -130px;
+	}
+
+	.live-online p {
+		position: relative;
+		top: -290px;
+		left: -130px;
+	}
+
+	.live-monthly {
+		position: relative;
+		top: -280px;
+		left: -130px;
+	}
+
+	.live-monthly p {
+		position: relative;
+		top: 11px;
+		left: 20px;
+	}
+
+	.live-monthly span {
+		position: relative;
+		top: -25px;
+		left: 130px;
+	}
+
+	.personal img {
+		position: relative;
+		top: -860px;
+		left: 1000px;
+	}
+
+	.personal h1 {
+		position: relative;
+		top: -630px;
+		left: -130px;
+	}
+
+	.personal p {
+		position: relative;
+		top: -625px;
+		left: -130px;
+	}
+
+	.live-personal {
+		position: relative;
+		top: -640px;
+		left: -130px;
+	}
+
+	.live-personal p {
+		position: relative;
+		top: 11px;
+		left: 20px;
+	}
+
+	.live-personal span {
+		position: relative;
+		top: -25px;
+		left: 130px;
+	}
+
+	.contact-us img {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.contact-us h1 {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.contact-us p {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.contact-us input {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.contact-us button {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.rectangle img {
+		position: relative;
+		top: -500px;
+		left: -100px;
+	}
+
+	.footer-logo img {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.footer-text {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.learn img {
+		position: absolute;
+		top: 360px;
+		left: 550px;
+	}
+	.learn-img {
+		position: relative;
+		top: -50px;
+		left: -300px;
+	}
+
+	.lets-talk {
+		position: relative;
+		left: -70px;
+	}
+
+	.skills h1 {
+		margin-left: 650px;
+	}
+
+	.speaking {
+		margin-left: 50px;
+	}
+
+	.writing {
+		position: relative;
+		top: 0px;
+		left: -160px;
+	}
+
+	.reading {
+		position: relative;
+		top: 0px;
+		left: -170px;
+	}
+
+	.listening {
+		position: relative;
+		top: 0px;
+		left: -160px;
+	}
+
+	.about-us img {
+		position: relative;
+		top: 0px;
+		left: -180px;
+	}
+
+	.pricing h1 {
+		position: relative;
+		top: 0px;
+		left: -185px;
+	}
+
+	.self-study img {
+		margin-left: 170px;
+	}
+
+	.self-study h1 {
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.live-online img {
+		position: relative;
+		top: -550px;
+		left: 580px;
+	}
+
+	.live-online h1 {
+		position: relative;
+		top: -290px;
+		left: -130px;
+	}
+
+	.live-online p {
+		position: relative;
+		top: -290px;
+		left: -130px;
+	}
+
+	.live-monthly {
+		position: relative;
+		top: -280px;
+		left: -130px;
+	}
+
+	.live-monthly p {
+		position: relative;
+		top: 11px;
+		left: 20px;
+	}
+
+	.live-monthly span {
+		position: relative;
+		top: -25px;
+		left: 130px;
+	}
+
+	.personal img {
+		position: relative;
+		top: -860px;
+		left: 1000px;
+	}
+
+	.personal h1 {
+		position: relative;
+		top: -630px;
+		left: -130px;
+	}
+
+	.personal p {
+		position: relative;
+		top: -625px;
+		left: -130px;
+	}
+
+	.live-personal {
+		position: relative;
+		top: -640px;
+		left: -130px;
+	}
+
+	.live-personal p {
+		position: relative;
+		top: 11px;
+		left: 20px;
+	}
+
+	.live-personal span {
+		position: relative;
+		top: -25px;
+		left: 130px;
+	}
+
+	.contact-us img {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.contact-us h1 {
+		position: relative;
+		top: -500px;
+		left: -80px;
+	}
+
+	.contact-us p {
+		position: relative;
+		top: -500px;
+		left: -80px;
+	}
+
+	.contact-us input {
+		position: relative;
+		top: -500px;
+		left: -80px;
+	}
+
+	.contact-us button {
+		position: relative;
+		top: -500px;
+		left: -80px;
+	}
+
+	.rectangle img {
+		position: relative;
+		top: -500px;
+		left: -100px;
+	}
+
+	.footer-logo img {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.footer-text {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
 }
 
 @media (max-width: 768px) {
-    .navigation {
-        position: relative;
-        padding: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        left: -20px;
-    }
+	.navigation {
+		position: relative;
+		padding: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		left: -20px;
+	}
 
-    .burger-menu {
-        display: flex !important;
-        position: relative;
-        z-index: 1001;
-    }
+	.burger-menu {
+		display: flex !important;
+		position: relative;
+		z-index: 1001;
+	}
 
-    .nav-menu {
-        position: absolute;
-        top: 100%;
-        right: 20px;
-        width: 250px;
-        background: white;
-        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
-        border-radius: 8px;
-        transition: all 0.3s ease;
-        z-index: 1000;
-        padding: 0;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(-10px);
-    }
+	.nav-menu {
+		position: absolute;
+		top: 100%;
+		right: 20px;
+		width: 250px;
+		background: white;
+		box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+		border-radius: 8px;
+		transition: all 0.3s ease;
+		z-index: 1000;
+		padding: 0;
+		opacity: 0;
+		visibility: hidden;
+		transform: translateY(-10px);
+	}
 
-    .nav-menu.active {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
+	.nav-menu.active {
+		opacity: 1;
+		visibility: visible;
+		transform: translateY(0);
+	}
 
-    .nav-menu ul {
-        display: flex !important;
-        flex-direction: column;
-        list-style: none;
-        margin: 0;
-        padding: 10px 0;
-        gap: 0;
-    }
+	.nav-menu ul {
+		display: flex !important;
+		flex-direction: column;
+		list-style: none;
+		margin: 0;
+		padding: 10px 0;
+		gap: 0;
+	}
 
-    .nav-menu li {
-        margin: 0;
-    }
+	.nav-menu li {
+		margin: 0;
+	}
 
-    .nav-menu li a {
-        display: block;
-        padding: 15px 25px;
-        font-size: 16px;
-        font-weight: 500;
-        color: #263238;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        text-align: left;
-    }
+	.nav-menu li a {
+		display: block;
+		padding: 15px 25px;
+		font-size: 16px;
+		font-weight: 500;
+		color: #263238;
+		text-decoration: none;
+		transition: all 0.3s ease;
+		text-align: left;
+	}
 
-    .nav-menu li a:hover {
-        background-color: #f8f9fa;
-        color: #000;
-    }
+	.nav-menu li a:hover {
+		background-color: #f8f9fa;
+		color: #000;
+	}
 
-    .lets-talk {
-        display: none !important;
-    }
+	.lets-talk {
+		display: none !important;
+	}
 
-    .learn-img {
-        margin-top: 50px;
-        margin-left: 70px;
-    }
+	.learn-img {
+		margin-top: 50px;
+		margin-left: 70px;
+	}
 
-    .skills h1 {
-        margin-left: 330px;
-    }
+	.skills h1 {
+		margin-left: 330px;
+	}
 
-    .speaking {
-        margin-left: 150px;
-    }
+	.speaking {
+		margin-left: 150px;
+	}
 
-    .writing {
-        margin-top: 40px;
-        margin-left: 190px;
-    }
+	.writing {
+		margin-top: 40px;
+		margin-left: 190px;
+	}
 
-    .reading {
-        margin-top: 40px;
-        margin-left: 190px;
-    }
+	.reading {
+		margin-top: 40px;
+		margin-left: 190px;
+	}
 
-    .listening {
-        margin-top: 40px;
-        margin-left: 0px;
-    }
+	.listening {
+		margin-top: 40px;
+		margin-left: 0px;
+	}
 
-    .about-us h1 {
-        margin-top: 150px;
-        margin-left: 300px;
-    }
+	.about-us h1 {
+		margin-top: 150px;
+		margin-left: 300px;
+	}
 
-    .about-us p {
-        margin-left: 150px;
-    }
+	.about-us p {
+		margin-left: 150px;
+	}
 
-    .about-us img {
-        margin-top: 170px;
-        margin-left: 120px;
-    }
+	.about-us img {
+		margin-top: 170px;
+		margin-left: 120px;
+	}
 
-    .pupils {
-        margin-top: -620px;
-        margin-left: -50px;
-    }
+	.pupils {
+		margin-top: -620px;
+		margin-left: -50px;
+	}
 
-    .teachers {
-        margin-left: -50px;
-    }
+	.teachers {
+		margin-left: -50px;
+	}
 
-    .foreign-language {
-        margin-left: -40px;
-    }
+	.foreign-language {
+		margin-left: -40px;
+	}
 
-    .pricing h1 {
-        margin-top: 700px;
-        margin-left: 300px;
-    }
+	.pricing h1 {
+		margin-top: 700px;
+		margin-left: 300px;
+	}
 
-    .self-study img {
-        margin-left: 250px;
-    }
+	.self-study img {
+		margin-left: 250px;
+	}
 
-    .self-study h1 {
-        margin-top: 80px;
-        margin-left: 200px;
-    }
+	.self-study h1 {
+		margin-top: 80px;
+		margin-left: 200px;
+	}
 
-    .self-study p {
-        margin-top: 40px;
-        margin-left: 200px;
-    }
+	.self-study p {
+		margin-top: 40px;
+		margin-left: 200px;
+	}
 
-    .money-monthly {
-        margin-top: 50px;
-        margin-left: 200px;
-    }
+	.money-monthly {
+		margin-top: 50px;
+		margin-left: 200px;
+	}
 
-    .money-monthly p {
-        margin-top: 2625px;
-        margin-left: 40px;
-    }
+	.money-monthly p {
+		margin-top: 2625px;
+		margin-left: 40px;
+	}
 
-    .money-monthly span {
-        margin-top: 2625px;
-        margin-left: 40px;
-    }
+	.money-monthly span {
+		margin-top: 2625px;
+		margin-left: 40px;
+	}
 
-    .live-online img {
-        margin-top: 3250px;
-        margin-left: -500px;
-    }
+	.live-online img {
+		margin-top: 3250px;
+		margin-left: -500px;
+	}
 
-    .live-online h1 {
-        margin-top: 400px;
-        margin-left: 200px;
-    }
+	.live-online h1 {
+		margin-top: 400px;
+		margin-left: 200px;
+	}
 
-    .live-online p {
-        margin-left: 100px;
-        margin-left: 200px;
-    }
+	.live-online p {
+		margin-left: 100px;
+		margin-left: 200px;
+	}
 
-    .live-monthly {
-        margin-top: 50px;
-        margin-left: 200px;
-    }
+	.live-monthly {
+		margin-top: 50px;
+		margin-left: 200px;
+	}
 
-    .live-monthly p {
-        margin-top: 3235px;
-        margin-left: -520px;
-    }
+	.live-monthly p {
+		margin-top: 3235px;
+		margin-left: -520px;
+	}
 
-    .live-monthly span {
-        margin-top: 3235px;
-        margin-left: -520px;
-    }
+	.live-monthly span {
+		margin-top: 3235px;
+		margin-left: -520px;
+	}
 
-    .personal img {
-        margin-top: 3900px;
-        margin-left: -950px;
-    }
+	.personal img {
+		margin-top: 3900px;
+		margin-left: -950px;
+	}
 
-    .personal h1 {
-        margin-top: 450px;
-        margin-left: 200px;
-    }
+	.personal h1 {
+		margin-top: 450px;
+		margin-left: 200px;
+	}
 
-    .personal p {
-        margin-left: 100px;
-        margin-left: 200px;
-    }
+	.personal p {
+		margin-left: 100px;
+		margin-left: 200px;
+	}
 
-    .live-personal {
-        margin-top: 50px;
-        margin-left: 200px;
-    }
+	.live-personal {
+		margin-top: 50px;
+		margin-left: 200px;
+	}
 
-    .live-personal p {
-        margin-top: 3890px;
-        margin-left: -950px;
-    }
+	.live-personal p {
+		margin-top: 3890px;
+		margin-left: -950px;
+	}
 
-    .live-personal span {
-        margin-top: 3890px;
-        margin-left: -950px;
-    }
+	.live-personal span {
+		margin-top: 3890px;
+		margin-left: -950px;
+	}
 
-    .contact-us img {
-        margin-top: 800px;
-    }
+	.contact-us img {
+		margin-top: 800px;
+	}
 
-    .contact-us h1 {
-        margin-top: -1000px;
-        margin-left: 250px;
-    }
+	.contact-us h1 {
+		margin-top: -1000px;
+		margin-left: 250px;
+	}
 
-    .contact-us p {
-        margin-top: 50px;
-        margin-left: 150px;
-    }
+	.contact-us p {
+		margin-top: 50px;
+		margin-left: 150px;
+	}
 
-    .contact-us input {
-        margin-top: 100px;
-        margin-left: 130px;
-    }
+	.contact-us input {
+		margin-top: 100px;
+		margin-left: 130px;
+	}
 
-    .contact-us button {
-    }
+	.contact-us button {
+	}
 
-    .rectangle img {
-        margin-top: 700px;
-        margin-left: 50px;
-        width: 90%;
-    }
+	.rectangle img {
+		margin-top: 700px;
+		margin-left: 50px;
+		width: 90%;
+	}
 
-    .footer-logo img {
-        margin-top: 0px;
-        margin-left: 30px;
-    }
+	.footer-logo img {
+		margin-top: 0px;
+		margin-left: 30px;
+	}
 
-    .footer-text {
-        font-size: 20px;
-        margin-left: 240px;
-    }
+	.footer-text {
+		font-size: 20px;
+		margin-left: 240px;
+	}
 }
 
 @media (min-width: 769px) {
-    .burger-menu {
-        display: none !important;
-    }
+	.burger-menu {
+		display: none !important;
+	}
 
-    .nav-menu {
-        position: static !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-        transform: none !important;
-        box-shadow: none !important;
-        background: transparent !important;
-        width: auto !important;
-    }
+	.nav-menu {
+		position: static !important;
+		opacity: 1 !important;
+		visibility: visible !important;
+		transform: none !important;
+		box-shadow: none !important;
+		background: transparent !important;
+		width: auto !important;
+	}
 
-    .nav-menu ul {
-        flex-direction: row !important;
-        padding: 0 !important;
-    }
+	.nav-menu ul {
+		flex-direction: row !important;
+		padding: 0 !important;
+	}
 
-    .nav-menu li a {
-        padding: 10px 15px !important;
-        text-align: center !important;
-    }
+	.nav-menu li a {
+		padding: 10px 15px !important;
+		text-align: center !important;
+	}
 
-    .lets-talk {
-        display: block !important;
-    }
+	.lets-talk {
+		display: block !important;
+	}
 }
