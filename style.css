@@ -634,182 +634,6 @@ body {
 	visibility: visible;
 }
 
-@media (max-width: 1024px) {
-	.learn-img {
-		position: relative;
-		top: -50px;
-		left: -250px;
-	}
-
-	.skills h1 {
-		margin-left: 650px;
-	}
-
-	.speaking {
-		margin-left: 80px;
-	}
-
-	.writing {
-		position: relative;
-		top: 0px;
-		left: -120px;
-	}
-
-	.reading {
-		position: relative;
-		top: 0px;
-		left: -120px;
-	}
-
-	.listening {
-		position: relative;
-		top: 0px;
-		left: -120px;
-	}
-
-	.about-us img {
-		position: relative;
-		top: 0px;
-		left: -120px;
-	}
-
-	.pricing h1 {
-		position: relative;
-		top: 0px;
-		left: -185px;
-	}
-
-	.self-study img {
-		margin-left: 170px;
-	}
-
-	.self-study h1 {
-		position: relative;
-		top: 0px;
-		left: 0px;
-	}
-
-	.live-online img {
-		position: relative;
-		top: -550px;
-		left: 580px;
-	}
-
-	.live-online h1 {
-		position: relative;
-		top: -290px;
-		left: -130px;
-	}
-
-	.live-online p {
-		position: relative;
-		top: -290px;
-		left: -130px;
-	}
-
-	.live-monthly {
-		position: relative;
-		top: -280px;
-		left: -130px;
-	}
-
-	.live-monthly p {
-		position: relative;
-		top: 11px;
-		left: 20px;
-	}
-
-	.live-monthly span {
-		position: relative;
-		top: -25px;
-		left: 130px;
-	}
-
-	.personal img {
-		position: relative;
-		top: -860px;
-		left: 1000px;
-	}
-
-	.personal h1 {
-		position: relative;
-		top: -630px;
-		left: -130px;
-	}
-
-	.personal p {
-		position: relative;
-		top: -625px;
-		left: -130px;
-	}
-
-	.live-personal {
-		position: relative;
-		top: -640px;
-		left: -130px;
-	}
-
-	.live-personal p {
-		position: relative;
-		top: 11px;
-		left: 20px;
-	}
-
-	.live-personal span {
-		position: relative;
-		top: -25px;
-		left: 130px;
-	}
-
-	.contact-us img {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-
-	.contact-us h1 {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-
-	.contact-us p {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-
-	.contact-us input {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-
-	.contact-us button {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-
-	.rectangle img {
-		position: relative;
-		top: -500px;
-		left: -100px;
-	}
-
-	.footer-logo img {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-
-	.footer-text {
-		position: relative;
-		top: -500px;
-		left: 0px;
-	}
-}
-
 @media screen and (max-width: 1440px) {
 	.learn img {
 		position: absolute;
@@ -993,6 +817,220 @@ body {
 		position: relative;
 		top: -500px;
 		left: 0px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.nav-menu li a {
+		position: relative;
+		left: 250px;
+		gap: 10px;
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 100%;
+		color: #263238;
+		padding: 20px;
+		cursor: pointer;
+	}
+
+	.lets-talk {
+		position: relative;
+		left: 300px;
+	}
+
+	.learn-img {
+		position: relative;
+		top: -50px;
+		left: -300px;
+	}
+
+	.skills h1 {
+		margin-left: 650px;
+	}
+
+	.speaking {
+		margin-left: 30px;
+	}
+
+	.writing {
+		position: relative;
+		top: 0px;
+		left: -170px;
+	}
+
+	.reading {
+		position: relative;
+		top: 0px;
+		left: -170px;
+	}
+
+	.listening {
+		position: relative;
+		top: 0px;
+		left: -170px;
+	}
+
+	.about-us img {
+		position: relative;
+		top: 0px;
+		left: -200px;
+	}
+
+	.pricing h1 {
+		position: relative;
+		top: 0px;
+		left: -185px;
+	}
+
+	.self-study img {
+		margin-left: 170px;
+	}
+
+	.self-study h1 {
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+
+	.live-online img {
+		position: relative;
+		top: -550px;
+		left: 580px;
+	}
+
+	.live-online h1 {
+		position: relative;
+		top: -290px;
+		left: -130px;
+	}
+
+	.live-online p {
+		position: relative;
+		top: -290px;
+		left: -130px;
+	}
+
+	.live-monthly {
+		position: relative;
+		top: -305px;
+		left: -130px;
+	}
+
+	.live-monthly p {
+		position: relative;
+		top: 11px;
+		left: 20px;
+	}
+
+	.live-monthly span {
+		position: relative;
+		top: -25px;
+		left: 130px;
+	}
+
+	.personal img {
+		position: relative;
+		top: -890px;
+		left: 1000px;
+	}
+
+	.personal h1 {
+		position: relative;
+		top: -650px;
+		left: -130px;
+		display: flex;
+		white-space: nowrap;
+		flex-direction: row;
+		writing-mode: horizontal-tb;
+	}
+
+	.personal p {
+		position: relative;
+		top: -655px;
+		left: -130px;
+		display: flex;
+		white-space: nowrap;
+		flex-direction: row;
+		writing-mode: horizontal-tb;
+	}
+
+	.live-personal {
+		position: relative;
+		top: -643px;
+		left: -130px;
+	}
+
+	.live-personal p {
+		position: relative;
+		top: 11px;
+		left: 20px;
+	}
+
+	.live-personal span {
+		position: relative;
+		top: -25px;
+		left: 130px;
+	}
+
+	.contact-us img {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.contact-us h1 {
+		position: relative;
+		top: -500px;
+		left: -100px;
+		display: flex;
+		white-space: nowrap;
+		flex-direction: row;
+		writing-mode: horizontal-tb;
+	}
+
+	.contact-us p {
+		position: relative;
+		top: -500px;
+		left: -100px;
+		display: flex;
+		white-space: nowrap;
+		flex-direction: row;
+		writing-mode: horizontal-tb;
+	}
+
+	.contact-us input {
+		position: relative;
+		top: -500px;
+		left: -100px;
+	}
+
+	.contact-us button {
+		position: relative;
+		top: -608px;
+		left: 1120px;
+	}
+
+	.rectangle img {
+		position: relative;
+		top: -500px;
+		left: -100px;
+	}
+
+	.footer-logo img {
+		position: relative;
+		top: -500px;
+		left: 0px;
+	}
+
+	.footer-text {
+		position: relative;
+		top: -500px;
+		left: -250px;
+		display: flex;
+		white-space: nowrap;
+		flex-direction: row;
+		writing-mode: horizontal-tb;
 	}
 }
 
